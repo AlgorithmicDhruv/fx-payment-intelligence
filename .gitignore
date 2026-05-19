@@ -1,0 +1,39 @@
+# secrets — never commit
+.env
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.DS_Store
+
+# Testing
+.pytest_cache/
+
+# ==========================================
+# DATA & MODELS: THE DEMO BLUEPRINT
+# ==========================================
+
+# 1. Ignore large, raw, or dynamic data folders
+models/
+
+# 2. Block all data/model filetypes globally by default
+*.parquet
+*.pt
+*.json
+
+# 3. WHITELIST EXCEPTIONS: Force Git to track your specific demo files!
+!src/forecasting/*.pt
+!src/rag/*.json
+!models/
+!models/**
+!data/processed/**
+!data/raw/**
