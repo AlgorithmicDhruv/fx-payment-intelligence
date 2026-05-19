@@ -2,10 +2,10 @@
 
 An end-to-end quantitative system that solves the corporate treasury FX execution problem: *given a payment deadline of T trading days, on which day should you convert currency to maximise the rate received?*
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge.svg)](https://fx-payment-intelligence.streamlit.app/) 
 
 The system combines statistical modelling, deep learning, stochastic optimisation, reinforcement learning, and retrieval-augmented generation into a single production-grade pipeline with two Streamlit interfaces.
 
----
 ---
 
 ## Live Deployment
@@ -296,6 +296,6 @@ All three have free tiers. No credit card required.
 
 ## Author
 
-**Dhruvkumar Mayurkumar Patel**
-M.S. Data Science
+**Dhruvkumar Mayurkumar Patel** ·
+M.S. Data Science ·
 [LinkedIn](https://linkedin.com/in/dhruvkumar-mayurkumar-patel-94b745210) · [View the live demo at FX Payment Intelligence on Streamlit Cloud](https://fx-payment-intelligence.streamlit.app/)
