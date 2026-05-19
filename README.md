@@ -2,10 +2,17 @@
 
 An end-to-end quantitative system that solves the corporate treasury FX execution problem: *given a payment deadline of T trading days, on which day should you convert currency to maximise the rate received?*
 
+
 The system combines statistical modelling, deep learning, stochastic optimisation, reinforcement learning, and retrieval-augmented generation into a single production-grade pipeline with two Streamlit interfaces.
 
 ---
+---
 
+## Live Deployment
+The interactive platform is fully deployed and accessible on Streamlit Cloud:
+👉 **[https://fx-payment-intelligence.streamlit.app/](https://fx-payment-intelligence.streamlit.app/)**
+
+---
 ## The Problem
 
 A corporate treasurer needs to convert USD → EUR within 21 trading days. They observe the spot rate each day and decide: execute now, or wait? Executing too early means leaving a better rate on the table. Waiting too long risks a worse rate as the deadline forces execution.
@@ -291,4 +298,4 @@ All three have free tiers. No credit card required.
 
 **Dhruvkumar Mayurkumar Patel**
 M.S. Data Science
-[LinkedIn](https://linkedin.com/in/dhruvkumar-mayurkumar-patel-94b745210) · [GitHub](https://github.com/AlgorithmicDhruv)
+[LinkedIn](https://linkedin.com/in/dhruvkumar-mayurkumar-patel-94b745210) · [View the live demo at FX Payment Intelligence on Streamlit Cloud](https://fx-payment-intelligence.streamlit.app/)
