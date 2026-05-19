@@ -538,6 +538,9 @@ elif PAGE == "5. RAG Treasury Assistant":
     <b>Embed:</b> HuggingFace API (BAAI/bge-small-en-v1.5, zero local RAM) &nbsp;·&nbsp; <b>Store:</b> Plain JSON &nbsp;·&nbsp; <b>Generate:</b> Groq llama-3.3-70b
     """)
 
+    # Look for the key in Streamlit secrets first (Cloud), then fall back to configs (Local)
+    groq_key = st.secrets.get("GROQ_API_KEY", GROQ_API_KEY)
+    
     if not GROQ_API_KEY:
         st.error("GROQ_API_KEY not set in .env")
         st.stop()
