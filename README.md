@@ -170,7 +170,7 @@ chromadb 0.4.x uses `np.float_` which was removed in NumPy 2.0. For an 11-chunk 
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/fx-payment-intelligence.git
+git clone https://github.com/AlgorithmicDhruv/fx-payment-intelligence.git
 cd fx-payment-intelligence
 
 python -m venv venv
@@ -298,4 +298,4 @@ All three have free tiers. No credit card required.
 
 **Dhruvkumar Mayurkumar Patel** ·
 M.S. Data Science ·
-[LinkedIn](https://linkedin.com/in/dhruvkumar-mayurkumar-patel-94b745210) · [View the live demo at FX Payment Intelligence on Streamlit Cloud](https://fx-payment-intelligence.streamlit.app/)
+[LinkedIn](https://linkedin.com/in/dhruvkumar-mayurkumar-patel-94b745210) · [Live Demo](https://fx-payment-intelligence.streamlit.app/)
